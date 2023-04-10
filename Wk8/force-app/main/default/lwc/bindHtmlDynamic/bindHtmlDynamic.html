@@ -1,0 +1,14 @@
+<template>
+                    
+    <div class="slds-p-around_medium lgc-bg">
+        <lightning-input type="text" label="Enter some text" value={myValue} onchange={handleChange} ></lightning-input>
+        <BR>
+            <lightning-button label="add Text" title="Append Text Button" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+
+            {myValue}
+            <BR>
+                <BR>
+                    {newValue}
+    </div>
+  
+</template>
